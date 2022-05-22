@@ -30,7 +30,7 @@ ip.getIpAddress()
 Result:
 
 ```js
-ipAddress : 103.58.74.250
+ipAddress : 163.172.90.118
 ```
 
 ### user location details
