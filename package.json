@@ -1,0 +1,28 @@
+{
+  "name": "ip-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemprogramer/ip-in.git"
+  },
+  "keywords": [
+    "public-ip",
+    "ip",
+    "ipv4",
+    "ipv6"
+  ],
+  "author": "LM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alemprogramer/ip-in/issues"
+  },
+  "homepage": "https://github.com/alemprogramer/ip-in#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
