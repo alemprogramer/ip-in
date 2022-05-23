@@ -45,8 +45,23 @@ const getCountryDetails = async () => {
   });
 };
 
+const getUserLocation = async () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      // let ipData = await axios.get(`https://ip-api.io/json`);
+      let ipData = await axios.get(`https://api.ipregistry.co/?key=tryout`);
+      // &fields=location.country&pretty=true
+        resolve(ipData.data);
+      
+    } catch (error) {
+      reject(error.message);
+    }
+  });
+}
+
 
 module.exports = {
   getCountryDetails,
   getIpAddress,
+  getUserLocation
 };
